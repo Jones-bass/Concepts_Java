@@ -16,5 +16,4 @@ public class QuestionAnswerDTO {
     private UUID questionID;
     private UUID alternativeID;
     private boolean isCorrect;
-
 }
