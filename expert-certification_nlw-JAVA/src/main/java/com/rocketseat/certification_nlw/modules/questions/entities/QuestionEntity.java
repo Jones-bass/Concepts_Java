@@ -17,10 +17,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Entity(name = "questions")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "questions")
 public class QuestionEntity {
 
     @Id
